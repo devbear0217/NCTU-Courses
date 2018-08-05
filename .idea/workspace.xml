@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba55e7aa-f393-43ea-8372-7b6b44e9c61b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Vehicular Vision System/Final Project/flower_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vehicular Vision System/HW2 Background Substraction/Background_Substraction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vehicular Vision System/HW3 Pedestrian Detection/Pedestrian_Detection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vehicular Vision System/HW4 Lane Detection/original.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoT course/GY_801.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoT course/Raspberry_Alarm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vehicular Vision System/HW4 Lane Detection/lane_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicular Vision System/HW4 Lane Detection/lane_detection.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,27 +33,27 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="13" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="41" />
-          <entry key="gitignore" value="5" />
-          <entry key="py" value="1713" />
+          <entry key="dummy" value="75" />
+          <entry key="gitignore" value="11" />
+          <entry key="py" value="1732" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="1713" />
+          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="Python" value="1732" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -64,18 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vehicular Vision System/HW4 Lane Detection/lane_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#39#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vehicular Vision System/HW3 Pedestrian Detection/Pedestrian_Detection.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,30 +85,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vehicular Vision System/Final Project/flower_classification.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="60">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cloud Computing and Big Data/Deep Pump Project/deep_pump.py">
+        <entry file="file://$PROJECT_DIR$/IoT course/Raspberry_Alarm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4170">
-              <caret line="285" column="34" selection-start-line="285" selection-start-column="34" selection-end-line="285" selection-end-column="34" />
+            <state relative-caret-position="2205">
+              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IoT course/GY_801.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -206,7 +203,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Vehicular Vision System/HW4_Lane Detection.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Cloud Computing and Big Data/Deep Pump Project/test.py" />
         <option value="$PROJECT_DIR$/Cloud Computing and Big Data/Deep Pump Project/deep_pump.py" />
         <option value="$PROJECT_DIR$/Cloud Computing and Big Data/Lab 3: CNN/lab3_0645101.py" />
@@ -218,6 +214,9 @@
         <option value="$PROJECT_DIR$/Vehicular Vision System/HW3 Pedestrian Detection/Pedestrian_Detection.py" />
         <option value="$PROJECT_DIR$/Vehicular Vision System/HW2 Background Substraction/Background_Substraction.py" />
         <option value="$PROJECT_DIR$/Vehicular Vision System/Final Project/flower_classification.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/IoT course/Raspberry_Alarm.py" />
+        <option value="$PROJECT_DIR$/IoT course/GY_801.py" />
       </list>
     </option>
   </component>
@@ -246,11 +245,6 @@
             <path>
               <item name="NCTU Courses" type="b2602c69:ProjectViewProjectNode" />
               <item name="NCTU Courses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NCTU Courses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NCTU Courses" type="462c0819:PsiDirectoryNode" />
-              <item name="Vehicular Vision System" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,6 +353,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="964" y="45" width="956" height="1035" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26496673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -410,13 +405,6 @@
           <folding>
             <element signature="e#39#49#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -484,6 +472,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vehicular Vision System/Final Project/flower_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoT course/Raspberry_Alarm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoT course/GY_801.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
