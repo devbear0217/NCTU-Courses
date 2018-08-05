@@ -13,9 +13,12 @@ writer = cv2.VideoWriter('output.avi',
 def roi(img, vertices):
     mask = np.zeros_like(img)
 
-    cv2.fillPoly(mask, vertices, 255)
+    cv2.fillPoly(mask,
+                 vertices,
+                 255)
 
-    masked = cv2.bitwise_and(img, mask)
+    masked = cv2.bitwise_and(img,
+                             mask)
     return masked
 
 
@@ -65,8 +68,12 @@ def lane_lines(image, lines):
     y1 = image.shape[0]
     y2 = y1 * 0.6
 
-    left_line = make_line_points(y1, y2, left_lane)
-    right_line = make_line_points(y1, y2, right_lane)
+    left_line = make_line_points(y1,
+                                 y2,
+                                 left_lane)
+    right_line = make_line_points(y1,
+                                  y2,
+                                  right_lane)
 
     return left_line, right_line
 
@@ -77,32 +84,70 @@ while True:
         video = cv2.VideoCapture("original.mp4")
         continue
 
-    frame = cv2.GaussianBlur(orig_frame, (5, 5), 0)
-    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    low_yellow = np.array([0, 128, 197])
-    up_yellow = np.array([179, 228, 255])
-    low_white = np.array([0, 0, 205])
-    up_white = np.array([179, 25, 255])
-    mask_yellow = cv2.inRange(hsv, low_yellow, up_yellow)
-    mask_white = cv2.inRange(hsv, low_white, up_white)
+    frame = cv2.GaussianBlur(orig_frame,
+                             (5, 5),
+                             0)
+    hsv = cv2.cvtColor(frame,
+                       cv2.COLOR_BGR2HSV)
+    low_yellow = np.array([0,
+                           128,
+                           197])
+    up_yellow = np.array([179,
+                          228,
+                          255])
+    low_white = np.array([0,
+                          0,
+                          205])
+    up_white = np.array([179,
+                         25,
+                         255])
+    mask_yellow = cv2.inRange(hsv,
+                              low_yellow,
+                              up_yellow)
+    mask_white = cv2.inRange(hsv,
+                             low_white,
+                             up_white)
     mask = mask_yellow + mask_white
-    edges = cv2.Canny(mask, 75, 150)
+    edges = cv2.Canny(mask,
+                      75,
+                      150)
 
-    vertices = np.array([[(190, 670), (560, 420), (680, 420),
-                          (1120, 670)]], dtype=np.int32)
+    vertices = np.array([[(190, 670),
+                          (560, 420),
+                          (680, 420),
+                          (1120, 670)]],
+                        dtype=np.int32)
 
-    processed_img = roi(edges, [vertices])
+    processed_img = roi(edges,
+                        [vertices])
 
-    lines = cv2.HoughLinesP(processed_img, 1, np.pi / 180, 50, 5, 20, 300)
+    lines = cv2.HoughLinesP(processed_img,
+                            1,
+                            np.pi / 180,
+                            50,
+                            5,
+                            20,
+                            300)
     try:
-        left_line, right_line = lane_lines(orig_frame, lines)
-        cv2.line(orig_frame, left_line[0], left_line[1], (0, 255, 0), 20)
-        cv2.line(orig_frame, right_line[0], right_line[1], (0, 255, 0), 20)
+        left_line, right_line = lane_lines(orig_frame,
+                                           lines)
+        cv2.line(orig_frame,
+                 left_line[0],
+                 left_line[1],
+                 (0, 255, 0),
+                 20)
+        cv2.line(orig_frame,
+                 right_line[0],
+                 right_line[1],
+                 (0, 255, 0),
+                 20)
     except Exception as e:
         pass
     writer.write(orig_frame)
-    cv2.imshow("frame", orig_frame)
-    cv2.imshow("edges", edges)
+    cv2.imshow("frame",
+               orig_frame)
+    cv2.imshow("edges",
+               edges)
     key = cv2.waitKey(25)
     if key == 27:
         break

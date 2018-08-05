@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Cloud Computing and Big Data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Cloud Computing and Big Data/Deep Pump Project" vcs="Git" />
   </component>
 </project>
